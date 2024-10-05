@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    box-shadow: 2px 2px 2px gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    
+}
+nav .second .navlinks a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #1a1919;
+}
+nav .second .navlinks a:hover{
+    text-decoration: underline;
+}
+nav .third .icon--container i{
+    font-size: 20px;
+}
+nav .third .icon--container i:hover{
+    color: orange;
+}
+main{
+    display: flex;
+}
+main.left{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main.right{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main.left h1 span{
+    color: rgb(0, 247, 255);
+}
+main.right h2 span{
+    color: rgb(0, 195, 255);
+}
+main .class image{
+    height: 200px;
+    width: 300px;
+}
+section{
+    background-color: aliceblue;
+    text-align: justify;
+    padding: 50px;
+}
+section h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+}
+article{
+    padding: 50px;
+}
+article .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+article h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+article .card{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+}
+article .card button{
+    padding: 5px 0;
+    background-color: aquamarine;
+    color: blueviolet;
+}
